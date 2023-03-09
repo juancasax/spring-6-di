@@ -7,7 +7,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 
 //comment out active profile to test use of default profile
-@ActiveProfiles("EN")
+@ActiveProfiles({"EN", "prod"})
 @SpringBootTest
 class myi18NControllerTestEN {
 
